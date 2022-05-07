@@ -1,2 +1,2 @@
 import streamlit as st
-st.tittle(“Efecto fotoeléctrico”)
+st.tittle(“Efecto fotoelectrico”)
