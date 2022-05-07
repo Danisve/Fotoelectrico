@@ -1,4 +1,6 @@
 import streamlit as st
+import pandas as pd
+import numpy as np
 st.title("Efecto fotoélectrico")
 st.write("Cuando la luz brilla en un metal,los electrones pueden ser expulsados de la superficie del metal en un fenómeno conocido como el efecto fotoeléctrico.")
 st.write("Debido al efecto fotoeléctrico fue prueba que la luz tiene una dualidad, es decir, se puede comportar como partícula y como onda.")
@@ -11,9 +13,9 @@ st. write("La energía de un fotón es proporcional a la frecuencia de la luz (f
 st.markdown("![Alt Text](https://upload.wikimedia.org/wikipedia/commons/6/6e/EFECTOFOTOELECTRICOpeq.gif)")
 st.subheader("Bandgap")
 st.write("El bandgap o tambien conocido como banda prohibida es la energía mínima necesaria para excitar un electrón desde su estado ligado a un estado libre que le permita participar en la conducción, dentro de una celda solar. Lo importante a resaltar aqui es el intervalo de banda es la cantidad mínima de energía necesaria para un electrón de liberarse de su estado de enlace. Cuando se cumple la energía de banda prohibida, el electrón es excitado a un estado libre, y por lo tanto puede participar en la conducción.La brecha de banda determina la cantidad de energía que se necesita del sol para la conducción, así como la cantidad de energía que se genera.Un agujero se crea donde el electrón estaba obligado anteriormente. Este agujero también participa en la conducción.")
-           
-df = pd.DataFrame(
-    np.random.randn(23, 2),
-    columns=('col %d' % i for i in range(2)))
+def load_data():
+           df=pd.DAataFrame(np.random.randn(23,2),columns=("col %d" % i for i in range(2)))
+           return df
+df=load_data()
 
 st.table(df)
