@@ -25,3 +25,4 @@ if Energía == "6.25×10^−19":
   st.write ("Tu metal es el Hafnio")
 if Energía == "4.33×10^−19"):
   st.write("Tu metal es el Samario")
+  
