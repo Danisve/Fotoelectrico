@@ -15,14 +15,14 @@ st.markdown("![Alt Text](https://upload.wikimedia.org/wikipedia/commons/1/1f/Bul
 st.write("Ese “agujero” que participa en la conducción, su movimiento es análogo al movimiento de una burbuja en un líquido. A pesar de que en realidad es el líquido que se mueve, es más fácil para describir el movimiento de la burbuja que va en la dirección opuesta.")
 st.markdown("![Alt Text](https://i.pinimg.com/originals/c1/4f/b5/c14fb5f3ad4a890f9296c2f842068463.gif)")
 Energía = st.number_imput("dame la energía del fotón")
-if Energía == "4.60×10^−19":
+if Energía = 4.60×10^−19:
   st.write("Tu metal es el calcio")
-if Energía == "7.08×10^−19":
+if Energía = 7.08×10^−19:
   st.write("Tu metal es el estaño")
-if Energía == "3.78×10^−19":
+if Energía = 3.78×10^−19:
   st.write ("Tu metal es el sodio")
-if Energía == "6.25×10^−19":
+if Energía = 6.25×10^−19:
   st.write ("Tu metal es el Hafnio")
-if Energía == "4.33×10^−19"):
+if Energía = 4.33×10^−19):
   st.write("Tu metal es el Samario")
   
