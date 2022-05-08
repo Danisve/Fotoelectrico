@@ -14,7 +14,7 @@ st.write("El bandgap o tambien conocido como banda prohibida es la energía mín
 st.markdown("![Alt Text](https://upload.wikimedia.org/wikipedia/commons/1/1f/Bulkbandstructure.gif)")
 st.write("Ese “agujero” que participa en la conducción, su movimiento es análogo al movimiento de una burbuja en un líquido. A pesar de que en realidad es el líquido que se mueve, es más fácil para describir el movimiento de la burbuja que va en la dirección opuesta.")
 st.markdown("![Alt Text](https://i.pinimg.com/originals/c1/4f/b5/c14fb5f3ad4a890f9296c2f842068463.gif)")
-Energia = st.select_slider("dame la energía del fotón", options=[4.60×10^−19,7.08×10^−19,6.25×10^−19,3.78×10^−19,4.33×10^−19])
+Energia = st.select_slider("dame la energía del fotón", options=["4.60×10^−19","7.08×10^−19","6.25×10^−19","3.78×10^−19","4.33×10^−19"])
 st.write("Tu metal es",Energia)
 if Energia = 4.60×10^−19:
   st.write("Tu metal es el calcio")
